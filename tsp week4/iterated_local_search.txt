@@ -1,0 +1,18 @@
+# ## iterated local search
+    # def generateInitialSolution():
+    #     return random_solution(points)
+    #
+    # def generateNewSolution():
+    #     return
+    # def LocalSearch():
+    #     return
+    # def iterated_local_search(f,N,L,S,k_max):
+    #     s=generateInitialSolution()
+    #     s_new=s.copy()
+    #     for k in range(k_max):
+    #         s_new=LocalSearch(f,N,L,S,s)
+    #
+    #         if f(s)>f(s_new):
+    #             s=s_new
+    #         s_new=generateNewSolution()
+    #     return s
